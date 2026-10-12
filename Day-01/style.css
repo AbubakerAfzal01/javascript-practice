@@ -1,0 +1,32 @@
+
+body {
+  font-family: sans-serif;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 0 20px;
+  color: #333;
+}
+
+#status {
+  color: green;
+  font-weight: bold;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+pre {
+  background: #f0f0f0;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+code {
+  font-family: monospace;
+}
