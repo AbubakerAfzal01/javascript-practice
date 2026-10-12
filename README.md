@@ -27,9 +27,13 @@ The goal is simple:
 
 ## Progress
 
-No day is marked complete yet. A day is added here only after its code is tested, notes are written, and the push is verified.
+| Day | Topic | Status |
+| :-: | :--- | :---: |
+| 01 | console.log, let and const | Completed |
 
-**0 / 60 days completed**
+**1 / 60 days completed**
+
+A day is added here only after its code is tested, notes are written, and the push is verified. Data types move to Day 02.
 
 > The roadmap is flexible. Topics and day numbers may change based on my real progress.
 
@@ -60,13 +64,17 @@ javascript-practice/
 |
 |-- Day-01/
 |   |-- index.html
+|   |-- style.css
 |   |-- script.js
-|   `-- notes.txt
+|   |-- notes.txt
 |
 |-- Day-02/
-|   `-- ...
+|   |-- index.html
+|   |-- style.css
+|   |-- script.js
+|   |-- notes.txt
 |
-`-- Day-60/
+|-- Day-60/
 ```
 
 Each day folder contains:
@@ -74,7 +82,7 @@ Each day folder contains:
 * `index.html` - starter page for that day's JavaScript
 * `script.js` - my own code
 * `notes.txt` - my notes in English
-* `style.css` - only on DOM/project days, if needed
+* `style.css` - only on DOM/project days, if needed (Day 01 has an extra one, not part of the task)
 * `images/` or `data/` - only if the day needs them
 
 ---
