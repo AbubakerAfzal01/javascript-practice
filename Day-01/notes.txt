@@ -1,0 +1,150 @@
+             <----------------------------------------------->
+------------>            DAY-01: JavaScript Basics           <-------------
+             <----------------------------------------------->
+
+DAY 01 NOTES: console.log, let and const
+
+1. WHAT IS console.log()?
+
+console.log() is used to show messages and variable values in the browser console. I used it to check what my code was printing and whether the values were correct.
+
+My Code Example:
+
+console.log("Example script running...");
+
+const age = 18;
+console.log("Age:", age);
+
+const name = "Abubaker";
+console.log("Name:", name);
+
+I used console.log() to print the message, age, and name in the console.
+
+2. WHAT IS A VARIABLE?
+
+A variable is a name that stores a value so I can use it in my code. For example, studentAge stores an age value, and pagesRead stores how many pages I have read.
+
+Example from the teacher, typed by me:
+
+let score = 5;
+console.log("Score:", score);
+
+score = 10;
+console.log("Score:", score);
+
+score = 15;
+console.log("Score:", score);
+
+This was the teacher's example that I typed for practice. It showed me that a variable can hold a value and that I can print the value using console.log().
+
+3. WHAT IS let?
+
+I use let when I need to give a variable a value that may change later. The teacher's score example showed this: score started at 5, then changed to 10 and 15.
+
+Example from the teacher, typed by me:
+
+let score = 5;
+console.log("Score:", score);
+score = 10;
+console.log("Score:", score);
+score = 15;
+console.log("Score:", score);
+
+I learned that I do not need to write let again when I am only changing the value of an existing variable.
+
+4. WHAT IS const?
+
+I use const when I do not need to assign a new value to a variable. In my code, age, name, and universityName were values I was not planning to reassign.
+
+My Code Example:
+
+const age = 18;
+const name = "Abubaker";
+const universityName = "Islamia University Of Bahawalpur";
+
+console.log("Age:", age);
+console.log("Name:", name);
+console.log("universityName:", universityName);
+
+When I tried to change a const variable, I saw this error in the console:
+
+TypeError: Assignment to constant variable.
+script.js:10
+
+This showed me that JavaScript does not allow me to reassign a variable declared with const. The line reference helped me find where the assignment happened.
+
+5. WHY IS const THE DEFAULT?
+
+I use const when I do not need to change a variable's value. It keeps my code simple and helps stop me from changing a value by mistake. I changed let name to const because I was not reassigning the name.
+
+6. WHAT IS THE script TAG AND WHY defer?
+
+The <script> tag connects a JavaScript file to an HTML page. I used src to point to my script.js file.
+
+My HTML Code Example:
+
+<script src="script.js" defer></script>
+
+The src attribute tells the browser which JavaScript file to load. The defer attribute lets the browser parse the HTML before running the external JavaScript file.
+
+7. WHAT DOES script.js:10 MEAN IN THE CONSOLE?
+
+script.js:10 means the message or error is linked to line 10 of my script.js file.
+
+script.js is the file name, and 10 is the line number. I can click the reference in the browser console to go to that part of the code and check what happened.
+
+In my practice, I saw the const assignment error and used the line reference to locate it.
+
+8. WHAT IS camelCase?
+
+camelCase is a way of naming variables without spaces. The first word starts with a lowercase letter, and the next word starts with a capital letter.
+
+Examples from my code:
+
+let studentAge = 20;
+let pagesRead = 5;
+const universityName = "Islamia University Of Bahawalpur";
+
+I learned to write studentAge, pagesRead, and universityName this way. I also need to remember that JavaScript is case-sensitive, so StudentAge and studentAge are different names.
+
+9. WHAT DID I PRACTICE TODAY?
+
+Today, I practiced console.log(), let, and const. I worked with variables such as studentAge, pagesRead, name, and universityName.
+
+I also typed the teacher's score example, checked output in the browser console, connected script.js to HTML, and learned what defer does. I practised using camelCase and looked at the error that appears when I try to reassign a const variable.
+
+10. WHAT DID I UNDERSTAND?
+
+I understood that I should choose let or const based on whether I need to reassign a value. For example, I changed let name to const because I was not changing the name.
+
+I also learned that JavaScript variable names are case-sensitive, so StudentAge and studentAge are not the same. The browser console shows output and errors, but first I need to know how to open it and find the relevant line.
+
+11. MISTAKES I IDENTIFIED
+
+1. I did not know where to open the browser console at first, so I could not easily check my output.
+
+2. I opened the HTML file directly in Chrome instead of running the project through the local server. When using VS Code Live Server, I should open the local URL it provides, often something like http://127.0.0.1:5500.
+
+3. I wrote StudentAge with a capital S. I should use studentAge consistently because JavaScript is case-sensitive.
+
+4. I did not keep spacing consistent around assignments. For example, I need to write score = 10; and studentAge = 25; instead of squeezing the equals sign and value together.
+
+5. I used let name even though I was not changing the value. I changed it to const because reassignment was not needed.
+
+6. I wrote pageRead instead of pagesRead. I need to use the same variable name consistently.
+
+7. I changed let myage directly to 20 even though the task did not ask me to change it. I learned to first check what the task asks. If the value does not need to change, I should keep it as it is and use const if reassignment is not needed.
+
+8. My comments were too long and heavy. I need to write short comments only when they are useful.
+
+9. I added extra spaces in some places and missed spaces in others. I need to keep formatting neat and consistent.
+
+My improvement goal is to check variable names carefully, use let and const for the right reasons, keep comments short, and make sure I run the project and check the console correctly.
+
+12. DAY 01 OUTCOME
+
+Today, I practised console.log(), let, and const. I learned how to print values, change a let variable, and understand the error that appears when I try to reassign a const variable.
+
+I also practised variable names, connected script.js to HTML, and learned about defer and the browser console. I still need to practise keeping my code neat and running my project correctly.
+
+Data types are not covered yet, so I will learn them in Day 02.
