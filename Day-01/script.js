@@ -36,3 +36,9 @@ console.log("pagesRead:", pagesRead);
 // const variable: university name never changes in this practice, so const
 const universityName = "Islamia University Of Bahawalpur";
 console.log("universityName:", universityName);
+
+// let variable: Bus Number
+let busNum = 988;
+console.log("busNum:", busNum);
+busNum = 999;
+console.log("busNum" , busNum);
