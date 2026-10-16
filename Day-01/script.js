@@ -37,8 +37,8 @@ console.log("pagesRead:", pagesRead);
 const universityName = "Islamia University Of Bahawalpur";
 console.log("universityName:", universityName);
 
-// let variable: Bus Number
+// let variable: Bus Number can change in this practice, so let 
 let busNum = 988;
 console.log("busNum:", busNum);
 busNum = 999;
-console.log("busNum" , busNum);
+console.log("busNum:", busNum);
