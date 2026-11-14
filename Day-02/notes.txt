@@ -1,0 +1,48 @@
+             <----------------------------------------------->
+ ------------>            DAY-02: JavaScript Basics          <-------------
+             <----------------------------------------------->
+
+Day 02 - Data Types
+
+1. A data type tells what kind of value a variable holds.
+2. typeof shows the type of a value.
+3. JavaScript has 7 primitive types:
+   1. string
+   2. number
+   3. boolean
+   4. undefined
+   5. null
+   6. bigint
+   7. symbol
+
+1. string
+-> Text inside quotes. Example: "Bahawalpur".
+-> "50" is a string. 50 is a number. Quotes change the type.
+
+2. number
+-> Integers and decimals are both number. Example: 30 and 99.5.
+-> NaN means Not a Number (example: 10 / "abc"), but typeof NaN is still "number".
+
+3. boolean
+-> Only true or false, without quotes.
+-> Name should match the value. Example: isRaining = true.
+
+4. undefined
+-> Variable is created but has no value yet.
+-> JavaScript sets it automatically. Example: let userName;
+
+5. null
+-> Empty on purpose. I set it myself.
+-> typeof null gives "object". This is an old JavaScript bug.
+
+6. bigint
+-> Very large integers. A number ending with n. Example: 123n.
+
+7. symbol
+-> Always unique, even with the same description.
+-> Symbol("id") === Symbol("id") is false.
+
+Mistakes I made
+ I named a number variable isRaining. A boolean name should hold true or false.
+ I used is_Raining. My style rule is camelCase, so it should be isRaining.
+
