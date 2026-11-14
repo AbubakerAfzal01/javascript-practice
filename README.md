@@ -30,8 +30,9 @@ The goal is simple:
 | Day | Topic | Status |
 | :-: | :--- | :---: |
 | 01 | console.log, let and const | Completed |
+| 02 | Data types | Completed |
 
-**1 / 60 days completed**
+**2 / 60 days completed**
 
 A day is added here only after its code is tested, notes are written, and the push is verified. Data types move to Day 02.
 
