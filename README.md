@@ -74,6 +74,11 @@ javascript-practice/
 |   |-- script.js
 |   |-- notes.txt
 |
+|-- Day-03/
+|   |-- index.html
+|   |-- script.js
+|   |-- notes.txt
+|
 |-- Day-60/
 ```
 
